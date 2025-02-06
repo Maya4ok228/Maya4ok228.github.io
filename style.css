@@ -1,0 +1,107 @@
+@keyframes gradient {
+  0%, 100% { background-color: #8d9094; }
+  16.6% { background-color: #d8a4bc; }
+  32.3% { background-color: #93b1c9; }
+  49.9% { background-color: #b4c0aa; }
+  66.5% { background-color: #ad9f89; }
+  83.2% { background-color: #c9a696; }
+}
+
+body {
+  animation: gradient 20s infinite ease-in-out;
+  font-family: Bahnschrift;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.head {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.45);
+  width: 80vw;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.head h3 {
+  margin: 0;
+  margin-left: 2vw;
+}
+
+.head ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.head ul li {
+  float: right;
+}
+
+.head ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.head ul li a:hover {
+  background-color: rgba(245, 245, 245, 0.2);
+}
+
+.head ul li a:active {
+  background-color: rgba(166, 170, 228, 0.2);
+  font-weight: bold;
+}
+
+.general h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 150%;
+}
+
+.message {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0 2% 1%;
+  margin: 10px 0;
+  width: 80%;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.message a {
+  color: white;
+}
+
+.message a:hover {
+  color: wheat;
+}
+
+.message img {
+  margin-bottom: 10px;
+}
+
+.message h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.rights {
+  color: lightgray;
+  text-align: center;
+}
